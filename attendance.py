@@ -11,12 +11,12 @@ driver = webdriver.Chrome("./chromedriver.exe")
 driver.get("http://lms.cet.ac.in/")
 
 # Define Moodle email and password
-moodle_mail = "<Enter your admission no>"
+moodle_username = "<Enter your admission no>"
 moodle_pass = "<Enter your password>"
 
 # Find the field element and send the input keys to the element
 username_ip = driver.find_element_by_name("username")
-username_ip.send_keys(moodle_mail)
+username_ip.send_keys(moodle_username)
 pass_ip = driver.find_element_by_name("password")
 pass_ip.send_keys(moodle_pass)
 
