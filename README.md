@@ -1,5 +1,6 @@
-﻿# automate-lms-attendance
+# automate-lms-attendance
 Automated attendance recording tool for Moodle built using Selenium.
+
 To run the script, 
 
  1. Clone the repository using the git command `https://github.com/thomasajai001/automate-lms-attendance.git`
